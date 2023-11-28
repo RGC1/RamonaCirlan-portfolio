@@ -15,8 +15,6 @@ header {
   display: inline;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -39,6 +37,10 @@ background-size: cover;
 height:100px;
 }
 
+.portfolio-bar{
+  display:flex;
+  background-color: grey;
+}
 
 .navbar {
 display:flex;
@@ -55,9 +57,20 @@ ul {
   margin: 0;
 }
 
+.application {
+  width:100%;
+  float:right; 
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  border: 5px solid green;
+  font-size: 25px;
+  flex-wrap:wrap;
+}
 
 #a1 {
   background-image: url(./images/Application1.jpg);
+  width: 100%;
 }
 
 #a2 {
@@ -74,4 +87,20 @@ ul {
 
 #a5 {
   background-image: url(./images/Application5.jpg);
+}
+
+.page-section #work {
+display:flex;
+}
+
+.work-col{
+  display:flex;
+}
+
+.col-left{
+
+}
+
+.row-right{
+
 }
