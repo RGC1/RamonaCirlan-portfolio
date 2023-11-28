@@ -9,6 +9,7 @@ The webpage contains a presentation of my portfolio including project I worked o
 The resources used to complete the task:
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 https://css-tricks.com/css-media-queries/
 
 

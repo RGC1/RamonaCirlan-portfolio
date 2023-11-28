@@ -10,13 +10,20 @@ body {
 }
 
 header {
-  background-color:blanchedalmond;
+  background-color:rgb(240, 182, 94);
   text-align: center;
   display: inline;
 }
 
+/*
 .header-wrap {
   display:flex;
+}
+*/
+
+.title-col {
+display:flex;
+justify-self: flex-start;
 }
 
 .navbar {
@@ -25,7 +32,7 @@ header {
   justify-content: flex-end;
   margin-top: 11px;
   margin-bottom: 30px;
-  }
+}
 
 nav {
   display:flex;
@@ -33,11 +40,7 @@ nav {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   margin: 0;
 }
 
@@ -45,23 +48,21 @@ p {
   margin: 0;
 }
 
-.hero-banner{
+.hero-banner {
 display:flex;
 justify-content:flex-end;
 background-image: url(./images/hbanner.jpg);
 background-repeat:no-repeat;
 background-size: cover;
-height:100px;
+height:150px;
 }
 
-.portfolio-bar{
+.portfolio-bar {
   display:flex;
-  background-color: grey;
+  background-color: rgb(241, 72, 72);
 }
 
-
-
-ul {
+ul li {
   list-style-type: none;
   display: inline;
   padding: 0;
@@ -82,6 +83,7 @@ ul {
 #a1 {
   background-image: url(./images/Application1.jpg);
   width: 100%;
+  height: 300px;
 }
 
 #a2 {
@@ -104,27 +106,40 @@ ul {
 display:flex;
 }
 
-.work-col{
+.work-col {
   display:flex;
 }
 
 .row {
-
+  display:flex;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .col {
-
+width: 10px;
+position:relative;
 }
 
-.col-left{
-
+.col-left {
+margin-right: 10px;
 }
 
-.col-right{
+.col-right {
+  margin-left: 10px;
+}
 
+.work-container {
+width: 100%;
 }
 
 .contactme {
   display: flex;
   gap: 30px;
+}
+
+@media only screen and (max-width:600px){
+  .row {
+    flex-direction: column;
+  }
 }
