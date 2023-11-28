@@ -30,6 +30,14 @@ p {
   margin: 0;
 }
 
+.hero-banner{
+display:flex;
+justify-content:flex-end;
+background-image: url(./images/hbanner.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+height:100px;
+}
 
 
 .navbar {
