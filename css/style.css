@@ -108,11 +108,19 @@ display:flex;
   display:flex;
 }
 
+.row {
+
+}
+
+.col {
+
+}
+
 .col-left{
 
 }
 
-.row-right{
+.col-right{
 
 }
 
