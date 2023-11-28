@@ -9,6 +9,14 @@ body {
   line-height: 1.5;
 }
 
+header {
+  background-color:blanchedalmond;
+  text-align: center;
+  display: inline;
+}
+
+
+
 h1,
 h2,
 h3,
@@ -20,4 +28,42 @@ h6 {
 
 p {
   margin: 0;
+}
+
+
+
+.navbar {
+display:flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-top: 11px;
+margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+
+#a1 {
+  background-image: url(./images/Application1.jpg);
+}
+
+#a2 {
+  background-image: url(./images/Application2.jpg);
+}
+
+#a3 {
+  background-image: url(./images/Application3.jpg);
+}
+
+#a4 {
+  background-image: url(./images/Application4.jpg);
+}
+
+#a5 {
+  background-image: url(./images/Application5.jpg);
 }
